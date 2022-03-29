@@ -1,4 +1,5 @@
 def main(s):
+    s=str(s)
     """
     The s string variable is given. return four characters from the end.
     Args:
@@ -6,5 +7,5 @@ def main(s):
     Returns:
         str: answer
     """
-    return (s[-4:])
+    return s[-4:]
 
